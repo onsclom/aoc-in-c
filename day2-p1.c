@@ -5,11 +5,6 @@
 #define FILE_MAX_SIZE 1000000
 
 typedef struct {
-  char *data;
-  unsigned long length;
-} s8;
-
-typedef struct {
   unsigned int red;
   unsigned int green;
   unsigned int blue;
